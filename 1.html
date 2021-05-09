@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>HTML</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<style>
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+ }
+ th, td {
+  padding: 5px;
+ }
+ th {
+  text-align: left;
+ }
+
+ .solutions {
+   display: none;
+   padding-top: 25px;
+ }
+</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script>
+MathJax = {
+  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+};
+</script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<body>
+
+<!--<img src="img_la.jpg" alt="LA" style="width:100%">
+
+<div class="">
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+</div>
+
+-->
+
+<div class="wrapper">
+  <button><a href="index.html">Back</a></button>
+  <div class="body">
+    <h1 style="margin-left: 550px;">HTML course</h1>
+    <h2 style="margin-left: 500px;">Introduction to the HTML</h2>
+    <br>
+    <h4>Content overview</h4>
+    <ul>
+      <li>Introduction</li>
+      <li>HTML Anatomy</li>
+      <li>The Body</li>
+      <li>HTML Structure</li>
+      <li>Headings</li>
+      <li>Divs</li>
+      <li>Attributes</li>
+      <li>Displaying Text</li>
+      <li>Styling Text</li>
+      <li>Line Breaks</li>
+      <li>Unordered Lists</li>
+      <li>Ordered Lists</li>
+      <li>Images</li>
+      <li>Image Alts</li>
+      <li>Videos</li>
+      <li>Review</li>
+    </ul>
+    <br>
+    <div id="topic1">
+      <h4>Introduction to HTML</h4>
+      <p>
+        Welcome to the world of code! Last year, millions of learners from our community started with HTML. Why? HTML is the skeleton of all web pages. It’s often the first language learned by developers, marketers, and designers and is core to front-end development work. If this is your first time touching code, we’re excited for what you’re about to create.<br>
+        So what exactly is HTML? HTML provides structure to the content appearing on a website, such as images, text, or videos. Right-click on any page on the internet, choose “Inspect,” and you’ll see HTML in a panel of your screen.<br>
+        HTML stands for HyperText Markup Language:<br>
+        <ul>
+          <li>A markup language is a computer language that defines the structure and presentation of raw text.</li>
+          <li>In HTML, the computer can interpret raw text that is wrapped in HTML elements.</li>
+          <li>HyperText is text displayed on a computer or device that provides access to other text through links, also known as hyperlinks. You probably clicked on a couple of hyperlinks on your way to this Codecademy course.</li>
+        </ul>
+        Learning HTML is the first step in creating websites, but even a bit of knowledge can help you inject code snippets into newsletter, blog or website templates. As you continue learning, you can layer HTML with CSS and JavaScript to create visually compelling and dynamic websites. But for now, we’re going to focus on how to add and modify basic content on a page, like text, images, and videos. Don’t worry if the websites look ugly — we’re just getting started.<br>
+      </p>
+    </div>
+    <div id="topic2">
+      <h4>HTML Anatomy</h4>
+      <p>
+        HTML is composed of elements. These elements structure the webpage and define its content. Let’s take a look at how they’re written.<br>
+        The diagram below displays an HTML paragraph element. As we can see, the paragraph element is made up of: <br>
+        <ul>
+          <li>An opening tag (&ltp&gt)</li>
+          <li>The content (“Hello World!” text)</li>
+          <li>A closing tag (&lt/p&gt)</li>
+        </ul>
+        <img src="img/1_1.png" height="200px" width="400px"></img>
+        <br>
+        A tag and the content between it is called an HTML element. There are many tags that we can use to organize and display text and other types of content, like images.<br>
+        Let’s quickly review each part of the element pictured:<br>
+        <ul>
+         <li>HTML element (or simply, element) — a unit of content in an HTML document formed by HTML tags and the text or media it contains.</li>
+         <li>HTML Tag — the element name, surrounded by an opening <b>(<)</b> and closing <b>(>)</b> angle bracket.</li>
+         <li>Opening Tag — the first HTML tag used to start an HTML element. The tag type is surrounded by opening and closing angle brackets.</li>
+         <li>Content — The information (text or other elements) contained between the opening and closing tags of an HTML element.</li>
+         <li>Closing tag — the second HTML tag used to end an HTML element. Closing tags have a forward slash <b>(/)</b> inside of them, directly after the left angle bracket.</li>
+        </ul>
+      </p>
+    </div>
+    <div id="topic3">
+      <h4>The Body</h4>
+      <p>
+       One of the key HTML elements we use to build a webpage is the body element. Only content inside the opening and closing body tags can be displayed to the screen. Here’s what opening and closing body tags look like:<br>
+       &ltbody&gt<br>
+       &lt/body&gt<br><br>
+       Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body. <br><br>
+       &ltbody&gt<br>
+       &nbsp&nbsp&ltp&gtHi Huseyn!&lt/p&gt<br>
+       &lt/body&gt<br><br>
+
+       <b>Note</b>: While some browsers may render some content outside body tags as well to accommodate the occasional mistake in your HTML, not all browsers do this! The best way to ensure that all your HTML renders the same way in all browsers is to ensure that your elements remain within the opening and closing body tags.<br>
+       
+      </p>
+
+    </div>
+    <div id="topic4">
+     <h4>
+
+    </div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById('solutions1');
+  x.style.display = "block";
+
+}
+
+</script>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>
